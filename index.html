@@ -5,8 +5,8 @@
         <title>Pixel Art Maker</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Download google font Monoton -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+        <!-- Download google font Open Sans -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
         <!-- Main app css -->
         <link rel="stylesheet" href="css/styles.css">
     </head>
@@ -15,13 +15,14 @@
         
         <!-- Pick Up The Grid Size -->
         <h2>Choose Grid Size</h2>
-        <form id="sizePicker">
+        <form class="sizePicker" id="sizePicker">
             Grid Height: 
             <input type="number" id="input_height" name="height" min="1" value="1">
             <br>
-            Grid Width 
+            Grid Width: 
             <input type="number" id="input_width" name="width" min="1" value="1">
-            <input type="submit" name="submit">
+            <br>
+            <input type="submit" class="submit-btn" id="submit-btn" name="submit">
         </form>
         
         <!-- Pick Up The Grid Color -->
