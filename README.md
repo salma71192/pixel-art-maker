@@ -2,7 +2,7 @@
 
 ## What is this?
 
-It's a grid canvas which can be built manually according to user preferences to height, width and color.
+this is a grid canvas, can be built manually according to the user preferences for height, width and color.
 Note: This Project made for the Udacity Front End Nanodegree.
 
 ## How to use?
