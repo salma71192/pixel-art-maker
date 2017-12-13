@@ -12,6 +12,7 @@ $(document).ready(function(){
     * Make grid
     * @param {Number} height
     * @param {Number} width
+    * @return {Number} grid system and insert it into the HTML document
     */
     function makeGrid(height, width) {
         // Insert table cells
@@ -25,15 +26,14 @@ $(document).ready(function(){
             };
             grid += '</tr>';
         }
-
         pixelCanvas.append(grid);
     }
     
     // When size is submitted by the user, call makeGrid()
     submitBtn.click(function(evt){
         evt.preventDefault();
-        console.log(girdHeight.val());
-        makeGrid(girdHeight,girdWidth);
+        pixelCanvas.empty();
+        makeGrid(girdHeight,girdWidth);          
     });
     
     // color the grid cells
